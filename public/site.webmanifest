@@ -1,0 +1,23 @@
+{
+  "name": "Ahsan Ullah | Frontend Developer",
+  "short_name": "AUA Portfolio",
+  "description": "Professional portfolio of Ahsan Ullah — Frontend Developer & UI/UX Designer. Explore cutting-edge React projects, GSAP Animations, and Three.js 3D experiences.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["portfolio", "web development", "design"],
+  "screenshots": [],
+  "prefer_related_applications": false
+}

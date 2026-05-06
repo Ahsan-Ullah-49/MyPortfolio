@@ -130,15 +130,27 @@
     background-color: rgba(59, 130, 246, 0.1);
   }
 
-  /* Section wrapper */
+  /* Section wrapper — fully responsive */
   .section-container {
     max-width: 72rem; /* max-w-6xl */
     margin-left: auto;
     margin-right: auto;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-left: clamp(1rem, 5vw, 1.5rem);
+    padding-right: clamp(1rem, 5vw, 1.5rem);
+    padding-top: clamp(4rem, 8vw, 6rem);
+    padding-bottom: clamp(4rem, 8vw, 6rem);
+  }
+
+  /* Touch-friendly minimum target size */
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Safe area insets for notched phones (iPhone X+) */
+  .safe-padding {
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
   }
 
   /* Gradient text utility */

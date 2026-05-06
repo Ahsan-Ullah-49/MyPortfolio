@@ -1,0 +1,39 @@
+# robots.txt — Ahsan Ullah Portfolio
+# https://ahsan-ullah-portfolio.web.app/
+
+# Allow all search engine crawlers
+User-agent: *
+Allow: /
+
+# Disallow admin or private routes (if any in future)
+Disallow: /admin/
+Disallow: /private/
+
+# Crawl-delay to be polite
+Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://ahsan-ullah-portfolio.web.app/sitemap.xml
+
+# Google-specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 5
+
+# Bing-specific
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 10
+
+# Social media bots (for Open Graph previews)
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
